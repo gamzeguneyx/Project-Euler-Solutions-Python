@@ -22,5 +22,5 @@ def maxPrimeFactors (n):
 
 # Largest prime factor of the number 60085147514
   
-n = 60085147514
+n = 600851475143
 print(maxPrimeFactors(n))
