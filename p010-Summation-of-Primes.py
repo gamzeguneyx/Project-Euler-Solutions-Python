@@ -5,7 +5,6 @@
 def sumOfPrimes(n):
 	# list of the prime numbers
 	prime = [True] * (n + 1)
-	
 	p = 2
 	while p * p <= n:
 		if prime[p] == True:
@@ -15,7 +14,6 @@ def sumOfPrimes(n):
 				prime[i] = False
 				i += p
 		p += 1
-		
 	sum = 0
 	for i in range (2, n + 1):
 		if(prime[i]):
