@@ -13,7 +13,7 @@ def compute():
 			c = PERIMETER - a - b
 			if a * a + b * b == c * c:
 				return str(a * b * c)
-
-
+#Conditional Check
 if __name__ == "__main__":
+	#Print Solution
 	print(compute())
